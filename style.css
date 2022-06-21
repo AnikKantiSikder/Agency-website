@@ -7,12 +7,192 @@
   --card-primary-color: #151450;
   --card-secondary-color: #211c5c;
   --btn-bg-color: #7259db;
+  --secondary-color: #7259db;
   --icon-bg-01: #f7a025;
   --icon-bg-02: #2d70ab;
   --icon-bg-03: #fe1161;
   --icon-bg-04: #0389fe;
 
-  /*  --text-small : ;
-      --text-heading : ;
-     font-family: 'Poppins', sans-serif; */
+  --text-small : 1rem;
+  --text-heading : 2rem;
 }
+
+/* Reset default browser design */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base style */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--body-bg-color);
+}
+
+section {
+  padding: 70px 0px;
+}
+
+/* Header style start */
+.header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.logo h1 {
+  color: #fff;
+}
+
+.nav__list .nav__item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.search__box span i {
+  color: #fff;
+}
+
+.active__nav {
+  color: var(--secondary-color) !important;
+}
+
+/* Header style end */
+
+/* Hero section style start */
+
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.hero__content, .hero__img {
+  width: 50%;
+}
+
+.hero__content h2{
+  color: #fff;
+  font-size: var(--text-heading);
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+.hero__content p {
+  color: #fff;
+  opacity: 75%;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.btn {
+  border: none;
+  padding: 10px 30px;
+  background: var(--btn-bg-color);
+  color: #fff;
+  border-radius: 5px; 
+}
+
+.hero__img {
+  text-align: right;
+}
+
+/* Hero section style end */
+
+/* Why choose us section style start */
+
+.choose__us-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choose__us-top {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.choose__us-top h2 {
+  color: #fff;
+  font-size: var(--text-heading);
+  margin-bottom: 15px;
+}
+
+.choose__us-top p {
+  color: #fff;
+  opacity: 75%;
+}
+
+.choose__us-box {
+  width: 250px;
+  padding: 25px;
+  background: var(--card-primary-color);
+  border-radius: 5px;
+}
+
+.choose__img {
+  background: var(--icon-bg-01);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.choose__img img {
+  width: 100%;
+}
+
+.choose__us-content h4 {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.choose__us-content p {
+  color: #fff;
+  opacity: 75%;
+  font-size: 0.9rem;
+}
+
+.choose__img-box-02 {
+  background: var(--icon-bg-02);
+}
+
+.choose__img-box-03 {
+  background: var(--icon-bg-03);
+}
+
+.choose__img-box-04 {
+  background: var(--icon-bg-04);
+}
+
+
+/* Why choose us section style end */
