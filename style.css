@@ -242,6 +242,7 @@ section {
   background: var(--card-secondary-color);
   padding: 30px;
   border-radius: 5px;
+  justify-content: space-between;
 }
 
 .search__img {
@@ -276,4 +277,44 @@ section {
 /* SEO section style end */
 
 /* Counter section style start */
+.counter__wrapper {
+  background: var(--card-secondary-color);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.counter__number {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.counter__text {
+  font-size: var(--text-small);
+  font-weight: 400;
+  color: #fff;
+  opacity: 75%;
+}
 /* Counter section style end */
+
+/* About us section style start */
+.about__us {
+  background: transparent;
+  padding: 0;
+  align-items: center;
+}
+
+.about__us-text {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  font-size: 0.9rem !important;
+  font-weight: 600;
+}
+
+.about__img {
+  text-align: right;
+}
+/* About us section style end */
