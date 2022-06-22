@@ -389,5 +389,73 @@ section {
 
 /* Customer review section style end */
 
-/* Customer team section style start */
-/* Customer team section style end */
+/* Our team section style start */
+.our__team-top {
+  text-align: center;
+}
+
+.our__team-top h2 {
+  font-size: var(--text-heading);
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.our__team-top p {
+  color: #fff;
+  opacity: 75%;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.single__team-img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.single__team-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.single__team {
+  width: 250px;
+  padding: 30px;
+  background: var(--card-secondary-color);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.social__icon {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social__icon span i {
+  color: #fff;
+  opacity: 75%;
+}
+
+.single__team-content h5 {
+  font-size: var(--text-small);
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.single__team-content p {
+  font-size: 0.8rem;
+  color: #fff;
+  opacity: 75%;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Our team section style end */
