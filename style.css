@@ -107,7 +107,7 @@ section {
 .hero__content p {
   color: #fff;
   opacity: 75%;
-  line-height: 30px;
+  line-height: 20px;
   margin-bottom: 30px;
   font-size: 0.9rem;
 }
@@ -117,7 +117,8 @@ section {
   padding: 10px 30px;
   background: var(--btn-bg-color);
   color: #fff;
-  border-radius: 5px; 
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .hero__img {
@@ -127,7 +128,6 @@ section {
 /* Hero section style end */
 
 /* Why choose us section style start */
-
 .choose__us-wrapper {
   display: flex;
   align-items: center;
@@ -148,6 +148,7 @@ section {
 .choose__us-top p {
   color: #fff;
   opacity: 75%;
+  line-height: 30px;
 }
 
 .choose__us-box {
@@ -176,7 +177,7 @@ section {
   margin-bottom: 15px;
 }
 
-.choose__us-content p {
+.choose__us-content p { 
   color: #fff;
   opacity: 75%;
   font-size: 0.9rem;
@@ -193,6 +194,86 @@ section {
 .choose__img-box-04 {
   background: var(--icon-bg-04);
 }
-
-
 /* Why choose us section style end */
+
+
+/* Offer section style start */
+
+.offer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer__box {
+  padding: 25px;
+  border: 1px solid var(--card-secondary-color);
+  width: 210px;
+  text-align: center;
+}
+
+.offer__box h4 {
+  color: #fff;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.offer__box-01 {
+  background: var(--card-secondary-color);
+  border-radius: 5px;
+  position: relative;
+}
+
+.offer__box-01::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background: var(--card-secondary-color);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: rotate(45deg);
+}
+/* Offer section style end */
+
+/* SEO section style starts */
+.search__engine-wrapper {
+  display: flex;
+  background: var(--card-secondary-color);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.search__img {
+  width: 45%;
+}
+
+.search__img img {
+  width: 100%;
+}
+
+.search__engine-content {
+  width: 50%;
+}
+
+.search__engine-content h2 {
+  color: #fff;
+  font-size: var(--text-heading);
+  margin-bottom: 20px;
+}
+
+.search__engine-content p {
+  color: #fff;
+  opacity: 75%;
+  font-size: var(--text-small);
+  line-height: 30px;
+}
+
+.search__engine-text02 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* SEO section style end */
+
+/* Counter section style start */
+/* Counter section style end */
