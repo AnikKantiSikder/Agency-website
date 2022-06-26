@@ -34,6 +34,17 @@ section {
   padding: 70px 0px;
 }
 
+/* custom scrollbar (Firefox doesn't support it)*/
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: var(--card-secondary-color);
+}
+
 /* Header style start */
 .header {
   width: 100%;
