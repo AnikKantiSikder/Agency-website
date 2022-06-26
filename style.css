@@ -52,15 +52,30 @@ section {
   line-height: 80px;
 }
 
+.menu {
+  display: flex;
+  column-gap: 2rem;
+}
+
 .container {
   width: 1140px;
   margin: auto;
+  padding: 0px 15px;
 }
 
 .header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.mobile__menu i {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.mobile__menu {
+  display: none;
 }
 
 .navigation {
